@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container1 {
+  height: 100vh;
+  /* width: 100vh; */
+  background: black;
+  position: relative;
+}
+.container2 {
+  height: 100vh;
+  width: 100%;
+  background: white;
+  position: relative;
+}
+.container3 {
+  height: 100vh;
+  width: 100%;
+  background: black;
+  position: relative;
+}
+
+.textColorDiff {
+  mix-blend-mode: difference;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+}
